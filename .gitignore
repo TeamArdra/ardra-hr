@@ -27,3 +27,49 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Build outputs
+bin/
+obj/
+
+# Visual Studio / Rider
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+publish/
+*.db
+
+# NuGet
+# The packages folder can be ignored because of PackageReference
+# but include if you use packages.config
+packages/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Configuration
+# Ignore local secrets and dev settings
+appsettings.*.json
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Frontend
+node_modules/
+dist/
+/.parcel-cache
+
+# Environment
+.env
+.venv/
+
+# Mac / misc
+.DS_Store
+Thumbs.db

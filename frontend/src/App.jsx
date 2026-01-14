@@ -114,7 +114,7 @@ const App = () => {
         alert(data.detail || 'Authentication failed');
       }
     } catch (error) {
-      alert('Server connection error. Please ensure FastAPI backend is running on port 8000.');
+      alert('Server connection error. Please ensure backend is running on port 5285.');
     }
   };
 
